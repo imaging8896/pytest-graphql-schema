@@ -1,0 +1,27 @@
+# python generics
+*.pyc
+__pycache__/
+.idea
+
+#pytest
+.pytest_cache
+
+# virtualenv
+.env
+.venv
+venv
+
+# project specifics
+restapi.log
+report
+
+# build plugin
+dist/
+sdist/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+
+# PyCharm
+.idea/
