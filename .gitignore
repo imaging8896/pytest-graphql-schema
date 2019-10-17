@@ -25,3 +25,7 @@ eggs/
 
 # PyCharm
 .idea/
+
+# Unit test / coverage reports
+.coverage
+.tox
