@@ -26,7 +26,7 @@ setup(
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 3",
     ] + [("Programming Language :: Python :: %s" % x) for x in "2.7 3.5 3.6 3.7 3.8".split()],
-    install_requires=["pytest>=4.3"],
+    install_requires=["pytest>=4.3", "requests", "pyOpenSSL"],
     tests_require=["tox"],
     packages=["pytest_graphql_schema"],
     entry_points={
